@@ -2,9 +2,10 @@ package services
 
 import (
 	"fmt"
-	"job-portal-api/internal/models"
 	"strconv"
 	"time"
+
+	"github.com/keerthiraoc/job-portal-api/internal/models"
 
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"

@@ -3,9 +3,10 @@ package middleware
 import (
 	"context"
 	"errors"
-	"job-portal-api/internal/auth"
 	"net/http"
 	"strings"
+
+	"github.com/keerthiraoc/job-portal-api/internal/auth"
 
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog/log"

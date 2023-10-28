@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"job-portal-api/internal/auth"
-	"job-portal-api/internal/middleware"
-	"job-portal-api/internal/services"
 	"net/http"
+
+	"github.com/keerthiraoc/job-portal-api/internal/auth"
+	"github.com/keerthiraoc/job-portal-api/internal/middleware"
+	"github.com/keerthiraoc/job-portal-api/internal/services"
 
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog/log"

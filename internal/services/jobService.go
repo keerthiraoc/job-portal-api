@@ -2,7 +2,8 @@ package services
 
 import (
 	"context"
-	"job-portal-api/internal/models"
+
+	"github.com/keerthiraoc/job-portal-api/internal/models"
 )
 
 func (s *Conn) CreateCompany(ctx context.Context, nc models.NewCompany, uid uint) (models.Company, error) {

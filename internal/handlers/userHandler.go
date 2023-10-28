@@ -2,9 +2,10 @@ package handlers
 
 import (
 	"encoding/json"
-	"job-portal-api/internal/middleware"
-	"job-portal-api/internal/models"
 	"net/http"
+
+	"github.com/keerthiraoc/job-portal-api/internal/middleware"
+	"github.com/keerthiraoc/job-portal-api/internal/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

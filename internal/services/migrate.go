@@ -1,7 +1,7 @@
 package services
 
 import (
-	"job-portal-api/internal/models"
+	"github.com/keerthiraoc/job-portal-api/internal/models"
 )
 
 func (s *Conn) AutoMigrate() error {

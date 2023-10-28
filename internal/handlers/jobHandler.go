@@ -2,11 +2,12 @@ package handlers
 
 import (
 	"encoding/json"
-	"job-portal-api/internal/auth"
-	"job-portal-api/internal/middleware"
-	"job-portal-api/internal/models"
 	"net/http"
 	"strconv"
+
+	"github.com/keerthiraoc/job-portal-api/internal/auth"
+	"github.com/keerthiraoc/job-portal-api/internal/middleware"
+	"github.com/keerthiraoc/job-portal-api/internal/models"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/golang-jwt/jwt/v5"

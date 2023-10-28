@@ -1,4 +1,4 @@
-module job-portal-api
+module github.com/keerthiraoc/job-portal-api
 
 go 1.21.1
 

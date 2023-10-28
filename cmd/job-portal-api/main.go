@@ -3,14 +3,15 @@ package main
 import (
 	"context"
 	"fmt"
-	"job-portal-api/internal/auth"
-	"job-portal-api/internal/database"
-	"job-portal-api/internal/handlers"
-	"job-portal-api/internal/services"
 	"net/http"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/keerthiraoc/job-portal-api/internal/auth"
+	"github.com/keerthiraoc/job-portal-api/internal/database"
+	"github.com/keerthiraoc/job-portal-api/internal/handlers"
+	"github.com/keerthiraoc/job-portal-api/internal/services"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/rs/zerolog/log"
